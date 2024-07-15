@@ -1,6 +1,8 @@
 # There will be cases we want to test new features in our website. 
 # One common practice is blue/green testing whereby we put new feature to test with a service that receives less traffic.
+
 # In task_03, we will split 80% of traffic to 'coffee' and 20% of traffic to 'tea' 
+
 # To make it easier to see the difference, let's first scale down the number of pods for each service
 kubectl scale deployment coffee-mtls --replicas=1
 kubectl scale deployment tea-mtls --replicas=1
