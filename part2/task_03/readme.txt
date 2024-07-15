@@ -17,6 +17,7 @@ kubectl apply -f task_03/cafe-bluegreen-vs.yaml
 https://cafe.example.com/coffee
 
 # Go to Firefox opened from previous task to view dashboard
+# Pay attention to number of requests each service is getting
 http://dashboard.example.com/dashboard.html#upstreams
 
 # Optional: Check what you have created so far (can press 'Tab' for auto-completion)

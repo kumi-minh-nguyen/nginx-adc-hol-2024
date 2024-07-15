@@ -1,5 +1,5 @@
 # You are tasked to manage traffic into a website hosted at www.cafe.example.com
-# This website has two service 'coffee' and 'tea'
+# This website has two services 'coffee' and 'tea'
 
 # In task_01, you will create an custom resource virtualserver to route traffic to it
 cd /home/ubuntu/nginx-kic-workshop
