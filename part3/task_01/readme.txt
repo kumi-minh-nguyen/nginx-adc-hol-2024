@@ -1,10 +1,12 @@
 # The main HTML site has embedded JavaScript to fetch a random job from the get-job REST api endpoint.
 # The endpoint has not been published yet and so this part will fail with "Error fetching job title"
 
+# Go to task_01 folder
+cd /home/ubuntu/nginx-api-gateway-for-k8s/task_01
+
 # Create job and main services
-cd /home/ubuntu/nginx-api-gateway-for-k8s
-kubectl apply -f task_01/jobs.yaml
-kubectl apply -f task_01/main.yaml
+kubectl apply -f jobs.yaml
+kubectl apply -f main.yaml
 
 # Go to MicroK8s component, open the Access dropdown list, choose Firefox
 

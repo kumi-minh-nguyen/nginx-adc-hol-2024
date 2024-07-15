@@ -1,13 +1,10 @@
 # Go to task_02 folder
-
 cd /home/ubuntu/nginx-api-gateway-for-k8s/task_02
 
 # Create a TLS cert and key for 'jobs.local' host.
-
 openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout jobs.local.key -out jobs.local.crt -config openssl.cnf -extensions req_ext
 
 # Create a K8s TLS secret based on 'jobs.local' TLS cert and key.
-
 kubectl create secret tls jobs-local-tls --key jobs.local.key --cert jobs.local.crt
 
 # Create a VirutalServer Custom Resource Definition (CRD) to add TLS and proxy the API endpoints:

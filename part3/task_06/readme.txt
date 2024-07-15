@@ -1,5 +1,4 @@
 # Go to task_06 folder
-
 cd /home/ubuntu/nginx-api-gateway-for-k8s/task_06
 
 #The rate-limiting key is the Authorization header. Every unique user will be 

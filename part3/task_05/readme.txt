@@ -1,5 +1,4 @@
 # Go to task_05 folder
-
 cd /home/ubuntu/nginx-api-gateway-for-k8s/task_05
 
 # Configure Authorization - Signed JSON WEB Token (JWT) Validation
