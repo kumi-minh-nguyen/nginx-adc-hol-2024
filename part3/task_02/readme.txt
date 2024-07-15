@@ -10,7 +10,6 @@ kubectl create secret tls jobs-local-tls --key jobs.local.key --cert jobs.local.
 # Create a VirutalServer Custom Resource Definition (CRD) to add TLS and proxy the API endpoints:
 # /get-job # GET /get-job will return a random job title in json format from an ecclectic list of job titles
 # /add-job # POST /add-job will accept an array of job titles to add to the ecclectic list of possible job titles
-
 kubectl apply -f VirtualServer.yaml
 
 # From the URL bar of the Firefox browser, connect to the new API endpoint: https://jobs.local/get-job 
