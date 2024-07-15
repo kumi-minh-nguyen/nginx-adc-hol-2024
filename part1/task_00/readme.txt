@@ -1,3 +1,5 @@
+# Go to WebHost component, open the Access dropdown list, choose Web Shell
+
 # Ensure you are root user
 whoami
 
