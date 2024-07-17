@@ -16,7 +16,7 @@ kubectl apply -f task_03/cafe-bluegreen-vs.yaml
 # Tick Auto-Refresh box in this page to generate traffic automatically
 https://cafe.example.com/coffee
 
-# From JumpHost component, open Firefox and type this in the address bar
+# Switch to the Jumphost Firefox to test
 # Pay attention to number of requests each service is getting
 http://dashboard.example.com/dashboard.html#upstreams
 

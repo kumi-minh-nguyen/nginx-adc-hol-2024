@@ -8,5 +8,5 @@ kubectl get secret jwk-secret -o yaml
 kubectl apply -f jwt-policy.yaml
 kubectl apply -f VirtualServer.yaml
 
-# When testing in Firefox browser, toggle the “Authorization” header off/disabled, 
+# Switch to the Jumphost Firefox to test, toggle the “Authorization” header off/disabled, 
 # and you will be rejected with a “401 Authorization Required” HTTP error message.

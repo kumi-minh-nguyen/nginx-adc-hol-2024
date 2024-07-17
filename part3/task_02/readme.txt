@@ -12,7 +12,7 @@ kubectl create secret tls jobs-local-tls --key jobs.local.key --cert jobs.local.
 # /add-job # POST /add-job will accept an array of job titles to add to the ecclectic list of possible job titles
 kubectl apply -f VirtualServer.yaml
 
-# From the URL bar of the Firefox browser, connect to the new API endpoint: https://jobs.local/get-job 
+# Switch to the Jumphost Firefox to test, connect to the new API endpoint: https://jobs.local/get-job 
 # Skip the Warning: Potential Security Risk Ahead self-signed certificated warning by clicking on [Advanced…] 
 # [Accept the Risk and Continue].
 

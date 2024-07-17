@@ -5,4 +5,4 @@ cd /home/ubuntu/nginx-api-gateway-for-k8s/task_03
 # calls the /get-job api endpoint and renders the job title in bold style.
 kubectl apply -f VirtualServer.yaml
 
-#From the URL bar of Firefox browser, connect to the web application: https://jobs.local
+# Switch to the Jumphost Firefox to test, connect to the web application: https://jobs.local

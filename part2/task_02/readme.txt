@@ -8,7 +8,7 @@ kubectl delete -f task_01/cafe-vs.yaml
 kubectl apply -f task_02/cafe-mtls.yaml
 kubectl apply -f task_02/cafe-mtls-vs.yaml
 
-# From JumpHost component, open Firefox and type this in the address bar 
+# Switch to the Jumphost Firefox to test
 # to test the newly deployed services, notice the service names have changed
 https://cafe.example.com/
 https://cafe.example.com/coffee
