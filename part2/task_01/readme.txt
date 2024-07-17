@@ -7,7 +7,7 @@ kubectl apply -f task_01/cafe-secret.yaml
 kubectl apply -f task_01/cafe.yaml
 kubectl apply -f task_01/cafe-vs.yaml
 
-# Go Firefox windows opened from the task_00, test the newly deployed services
+# From JumpHost component, open Firefox and type this in the address bar
 https://cafe.example.com/
 https://cafe.example.com/coffee
 https://cafe.example.com/tea

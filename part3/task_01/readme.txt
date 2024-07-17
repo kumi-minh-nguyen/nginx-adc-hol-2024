@@ -8,7 +8,7 @@ cd /home/ubuntu/nginx-api-gateway-for-k8s/task_01
 kubectl apply -f jobs.yaml
 kubectl apply -f main.yaml
 
-# Go to MicroK8s component, open the Access dropdown list, choose Firefox
+# From JumpHost component, open Firefox and type this in the address bar
 
 # The get-job REST api is running as a nodeport service:
 http://10.1.1.11:30020/
