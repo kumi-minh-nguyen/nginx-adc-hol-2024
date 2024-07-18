@@ -35,6 +35,12 @@ mv nginx.conf nginx.conf.backup
 # Copy nginx.conf from task_01 folder
 cp /home/ubuntu/nginx-routing-workshop/task_01/nginx.conf .
 
+# In conf.d folder, open lb.conf and uncomment these lines (removing #)to enable App Protect
+app_protect_enable on;
+app_protect_policy_file /etc/app_protect/conf/NginxDefaultPolicy.json;
+app_protect_security_log_enable on;
+app_protect_security_log /opt/app_protect/share/defaults/log_illegal.json /var/log/app_protect/security.log;
+
 # Test App Protect
 curl http://web.f5demos.com:9000
 curl 'http://web.f5demos.com:9000/?<script>'
