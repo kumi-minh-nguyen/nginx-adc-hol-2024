@@ -20,9 +20,9 @@ nginx -t
 nginx -s reload
 
 # Test the web hosting from command line
-curl -I http://http://web.f5demos.com:9001
-curl -I http://http://web.f5demos.com:9002
-curl -I http://http://web.f5demos.com:9003
+curl -I http://web.f5demos.com:9001
+curl -I http://web.f5demos.com:9002
+curl -I http://web.f5demos.com:9003
 
 # Alternatively, you can test from a browser.
 # From JumpHost component, open Firefox and type this in the address bar
