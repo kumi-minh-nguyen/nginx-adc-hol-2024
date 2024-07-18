@@ -10,7 +10,7 @@ nginx -t
 nginx -s reload
 
 # Test the load balancer from command line
-curl -I http://http://web.f5demos.com:9000
+curl -I http://web.f5demos.com:9000
 
 # Alternatively, you can test from a browser.
 # From JumpHost component, open Firefox and type this in the address bar
